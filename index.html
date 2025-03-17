@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1 - Criando um Blog</title>
+</head>
+
+<body>
+    <header id="inicio">
+        <h1>Desafio - Construindo Blog com Todas as Tags Aprendidas</h1>
+        <ul>
+            <li><a href="#h1-a-h6">H1 a H6</a></li>
+            <li><a href="#paragrafo">p</a></li>
+            <li><a href="#mark">mark</a></li>
+            <li><a href="#small">small</a></li>
+            <li><a href="#italico">i</a></li>
+            <li><a href="#under">u</a></li>
+            <li><a href="#negrito">strong</a></li>
+            <li><a href="#lista">ol, ul e li</a></li>
+            <li><a href="#a-link">a</a></li>
+            <li><a href="#linha-hr">hr</a></li>
+            <li><a href="#sub-palavra">sub</a></li>
+            <li><a href="#citacao">blockquote</a></li>
+            <li><a href="#fonte">font</a></li>
+            <li><a href="#deletado">del</a></li>
+            <li><a href="#abreviacao">abbr</a></li>
+        </ul>
+        <hr>
+    </header>
+
+    <main>
+        <section id="h1-a-h6">
+            <h2>&lt;h1&gt; a &lt;h6&gt;</h2>
+            <p>
+                As tags &lt;h1&gt; a &lt;h6&gt; são usadas para definir títulos HTML. <br><br>
+                &lt;h1&gt; define o título mais importante. &lt;h6&gt; define o título menos importante. <br><br>
+                
+                <strong>Nota:</strong> Use apenas um &lt;h1&gt; por página - isso deve representar o 
+                título/assunto principal para a página inteira. 
+                Além disso, não pule os níveis de título - comece com &lt;h1&gt;, depois use
+                &lt;h2&gt;, e assim por diante.
+            </p>
+        </section>
+
+        <section id="paragrafo">
+            <h2>&lt;p&gt;</h2>
+            <p>
+                A &lt;p&gt; tag define um parágrafo. <br><br>
+
+                Os navegadores adicionam automaticamente uma única linha em 
+                branco antes e depois de cada &lt;p&gt; elemento. <br><br>
+                    
+                <strong>Dica:</strong> use CSS para <u>estilizar parágrafos</u>.
+            </p>
+        </section>
+
+        <section id="mark">
+            <h2>&lt;mark&gt;</h2>
+            <p>
+                A &lt;mark&gt; tag define o texto que deve ser marcado ou destacado. <br><br>
+                <strong>Exemplo:</strong> <mark>Frase destacada para evidenciar.</mark>
+            </p>
+        </section>
+
+        <section id="small">
+            <h2>&lt;small&gt;</h2>
+            <p>
+                A &lt;small&gt; tag define textos menores (como direitos autorais e outros comentários pararelos). <br><br>
+
+                <strong>Dica:</strong> Esta tag não está obsoleta, mas é possível obter um efeito mais rico (ou o mesmo) com CSS.
+            </p>
+        </section>
+
+        <section id="italico">
+            <h2>&lt;i&gt;</h2>
+            <p>
+                A &lt;i&gt; tag define uma parte do texto em uma voz ou humor alternativo. 
+                O conteúdo dentro é normalmente exibido em itálico . <br><br>
+
+                A &lt;i&gt; tag é frequentemente usada para indicar um termo técnico, 
+                uma frase de outro idioma, um pensamento, um nome de navio, etc. <br><br>
+                    
+                Use o &lt;i&gt; elemento somente quando não houver um elemento semântico mais 
+                apropriado, como: <br><br>
+                    
+                &lt;em&gt; (texto enfatizado) <br>
+                &lt;strong&gt; (texto importante) <br>
+                &lt;mark&gt; (texto marcado/destacado) <br>
+                &lt;cite&gt; (o título de uma obra) <br>
+                &lt;dfn&gt; (um termo de definição)
+            </p>
+        </section>
+
+        <section id="under">
+            <h2>&lt;u&gt;</h2>
+            <p>
+                A &lt;u&gt; tag representa algum texto que não é articulado e estilizado 
+                de forma diferente do texto normal, como palavras com erros de ortografia ou 
+                nomes próprios em texto chinês. O conteúdo dentro é normalmente exibido com 
+                um sublinhado. Você pode alterar isso com CSS (veja o exemplo abaixo). <br><br>
+
+                <strong>Dica:</strong> Evite usar o &lt;u&gt; elemento onde ele possa ser confundido 
+                com um hiperlink!
+            </p>
+        </section>
+
+        <section id="negrito">
+            <h2>&lt;strong&gt;</h2>
+            <p>
+                A &lt;strong&gt; tag é usada para definir texto com forte importância.
+                O conteúdo dentro é normalmente exibido em <strong>negrito</strong>. <br><br>
+
+                Dica: Use a tag &lt;b&gt; para especificar texto em negrito sem nenhuma importância extra! <br>
+            </p>
+        </section>
+
+        <section id="lista">
+            <h2>&lt;ol&gt; &lt;ul&gt; &lt;li&gt;</h2>
+            <ul>
+                <li>
+                    <h3>&lt;ol&gt;</h3>
+                    <p>
+                        A &lt;ol&gt; tag define uma lista ordenada. Uma lista ordenada pode ser numérica ou alfabética.
+                    </p>
+                </li>
+                <li>
+                    <h3>&lt;ul&gt;</h3>
+                    <p>
+                        A &lt;ol&gt; tag define uma lista não ordenada (com marcadores). <br>
+
+                        Use a &lt;ol&gt; tag junto com a tag <li> para criar listas não ordenadas.
+                    </p>
+                </li>
+                <li>
+                    <h3>&lt;li&gt;</h3>
+                    <p>
+                        A &lt;li&gt; tag define um item da lista. <br>
+
+                        A &lt;li&gt; tag é usada dentro de listas ordenadas ( &lt;ol&gt; ), listas não ordenadas ( &lt;ul&gt; ) e em listas de menu ( &lt;menu&gt; ). <br>
+                        
+                        Em &lt;ul&gt; e &lt;menu&gt;, os itens da lista geralmente serão exibidos com marcadores. <br>
+                        
+                        Em &lt;ol&gt;, os itens da lista geralmente serão exibidos com números ou letras.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="a-link">
+            <h3>&lt;a&gt;</h3>
+            <p>
+                A &lt;a&gt; tag define um hiperlink, que é usado para vincular de uma página a outra. <br><br>
+                O atributo mais importante do elemento &lt;a&gt; é o atributo <strong>href</strong>, que indica o destino do link. <br><br>
+                Por padrão, os links aparecerão da seguinte forma em todos os navegadores: <br>
+                <ul>
+                    <li>Um link não visitado é sublinhado e azul</li> <br>
+                    <li>Um link visitado é sublinhado e roxo</li> <br>
+                    <li>um link ativo é sublinhadoe vermelho</li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="linha-hr">
+            <h3>&lt;hr&gt;</h3>
+            <p>
+                A tag define uma quebra temática em uma página HTML 
+                (por exemplo, uma mudança de tópico).&lt;hr&gt; <br><br>
+
+                O elemento é mais frequentemente exibido como uma regra 
+                horizontal que é usada para separar o conteúdo 
+                (ou definir uma alteração) em uma página HTML. &lt;hr&gt; 
+            </p>
+        </section>
+
+        <section id="sub-palavra">
+            <h3>&lt;sub&gt;</h3>
+            <p>
+                A tag define o texto subscrito. O texto subscrito aparece 
+                meio caractere abaixo do linha normal e, às vezes, é 
+                renderizado em uma fonte menor. O texto subscrito pode ser 
+                usado para fórmulas químicas, como H&lt;sub&gt; <sub>2</sub>O. <br><br>
+
+                <strong>Ponta:</strong> Use a tag &lt;sup&gt; <sup>para definir texto sobrescrito.</sup> 
+            </p>
+        </section>
+
+        <section id="citacao">
+            <h3>&lt;blockquote&gt;</h3>
+            <p>
+                A tag &lt;blockquote&gt em HTML é usada para indicar uma 
+                citação em bloco, ou seja, um trecho de texto retirado 
+                de outra fonte e exibido de forma destacada. Geralmente, 
+                os navegadores aplicam um recuo ao conteúdo dentro da 
+                &lt;blockquote&gt, diferenciando visualmente a citação 
+                do restante do texto. <br><br>
+
+                <strong>Exemplo:</strong> <br>
+                <code>
+                    &lt;blockquote cite="https://www.exemplo.com/artigo"&gt; <br>
+                        "Este é um trecho citado de uma fonte externa." <br>
+                    &lt;/blockquote&gt;
+                </code>
+            </p>
+        </section>
+
+        <section id="fonte">
+            <h3>&lt;font&gt;</h3>
+            <p>
+                A tag &lt;font&gt; em HTML era usada para definir a 
+                fonte, cor e tamanho do texto, mas foi descontinuada no 
+                HTML5 e não deve mais ser utilizada. No lugar dela, 
+                recomenda-se o uso de CSS para estilizar textos.
+            </p>
+        </section>
+
+        <section id="deletado">
+            <h3>&lt;del&gt;</h3>
+            <p>
+                A tag &lt;del&gt; define o texto que foi excluído de um documento. Os navegadores geralmente riscam uma linha no texto excluído. <br><br>
+                <strong>Exemplo:</strong> <code>&lt;del&gt;Texto excluído&lt;/del&gt;</code> <br>
+                <strong>Saída:</strong> <del>Texto excluído</del>
+            </p>
+        </section>
+
+        <section id="abreviacao"></section>
+        <h3>&lt;abbr&gt;</h3>
+        <p>
+            A tag &lt;abbr&gt; define uma abreviação ou um acrônimo, como "HTML". "CSS", "Sr.", "Dr.", "ASAP", "ATM".
+        </p>
+        <strong>Exemplo:</strong> 
+        &lt;abbr title="Associação Brasileira de Normas Técnicas"&gt;ABNT&lt;/abbr&gt; <br><br>
+        <strong>Saída:</strong>
+        <abbr title="Pitty Berarre Mamone">ABNT</abbr>
+
+    </main>
+
+    <button><a href="#inicio">Inicio</a></button>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+:root {
+    --color-menu: #828282;
+    --color-footer: #1C1C1C;
+    --color-body: #CFCFCF;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;
+    width: 100vw;
+}
+
+.lista_menu li{
+    list-style: none;
+    color: lightgray;
+}
+
+.lista_menu a {
+    text-decoration: none;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    min-width: 1vw;
+    background-color: var(--color-menu);
+    padding: 10px 30px 0px 0px;    
+}
+.header {
+    background-image: url(../imagens/bd8d013a-62ad-46c4-9c9b-e461c3f27e35.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.1));
+    background-size: cover;
+    object-position: center;
+    object-fit: cover;
+    min-height: 150px;
+    width: 100%;
+}
+.content {
+    background-color: var(--color-body);
+    min-height: 300px;
+    padding: 20px;
+
+    display: flex;
+}
+
+.content_text {
+    text-align: justify;
+}
+
+
+.content_img {
+    background-image: url(../imagens/bem-estar.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.75rem;
+    height: 100%;
+    width: 50%;
+}
+
+.img_inicio{
+    max-height: 30vh;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+    object-position: top;
+}
+
+.text_inicio {
+    text-align: center;
+    padding: 1.7rem;
+
+}
+.footer {
+    background-color: var(--color-footer);
+    color: #f1f1f1;
+    min-height: 30px;
+    text-align: center;
+}
+
